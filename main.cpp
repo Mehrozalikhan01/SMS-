@@ -309,3 +309,26 @@ using namespace std;
 
 
 //member4 311 to 411 lines for you
+#ifndef INTERFACE_H
+#define INTERFACE_H
+
+#include <iostream>
+using namespace std;
+
+void menu() {
+    cout << "\n===== STUDENT RECORD MANAGEMENT SYSTEM =====\n";
+    cout << "1. Add New Student\n";
+    cout << "2. Update Student\n";
+    cout << "3. Delete Student\n";
+    cout << "4. View All Students\n";
+    cout << "5. View Specific Student (by Roll)\n";
+    cout << "6. Search by Name\n";
+    cout << "7. Search by Department\n";
+    cout << "8. Sort by GPA\n";
+    cout << "9. Sort by Roll\n";
+    cout << "0. Exit\n";
+    cout << "============================================\n";
+    cout << "Enter your choice: ";
+}
+
+#endif
